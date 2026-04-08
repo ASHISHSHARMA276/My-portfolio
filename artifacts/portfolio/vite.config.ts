@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
-const isCI = !!process.env.CI || process.env.NODE_ENV === "production";
+const isCI = !!process.env.CI || !!process.env.VERCEL || process.env.NODE_ENV === "production";
 
 const rawPort = process.env.PORT;
 const port = rawPort ? Number(rawPort) : 3000;

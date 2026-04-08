@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { ArrowDown } from 'lucide-react';
 import { SiDiscord } from 'react-icons/si';
-import profilePhoto from '@assets/image_1775647553048.png';
+import profilePhoto from '../assets/profile.png';
 
 export function Hero() {
   return (

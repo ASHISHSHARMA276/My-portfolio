@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f0f14"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="grad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- Gradient border ring -->
+  <rect x="1.5" y="1.5" width="61" height="61" rx="13" fill="none" stroke="url(#grad)" stroke-width="1.5" opacity="0.6"/>
+  <!-- "A" letter -->
+  <text
+    x="10"
+    y="46"
+    font-family="'Space Grotesk', 'Inter', sans-serif"
+    font-size="34"
+    font-weight="800"
+    fill="url(#grad)"
+    letter-spacing="-2"
+  >AS</text>
+</svg>
